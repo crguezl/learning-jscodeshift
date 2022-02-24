@@ -1,3 +1,7 @@
+# Learning JSCodeshift
+
+Using this repo to learn JSCodeshift.
+
 ## js-codemod [![Build Status](https://travis-ci.org/cpojer/js-codemod.svg)](https://travis-ci.org/cpojer/js-codemod)
 
 This repository contains a collection of codemod scripts for use with
