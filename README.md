@@ -1,6 +1,11 @@
 # Learning JSCodeshift
 
 Using this repo to learn JSCodeshift.
+See 
+
+* <https://github.com/cpojer/js-codemod/>
+* <https://github.com/jhgg/js-transforms>
+
 
 ## js-codemod [![Build Status](https://travis-ci.org/cpojer/js-codemod.svg)](https://travis-ci.org/cpojer/js-codemod)
 
