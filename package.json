@@ -12,7 +12,7 @@
     "test": "f() { EXIT=0; npm run lint || EXIT=$?; jest $@ || EXIT=$?; exit $EXIT; }; f",
     "lint": "eslint .",
     "arrow": "jscodeshift -t transforms/arrow-function.js examples/ejemplo.js",
-    "comma": "jscodeshift -t transforms/trailing-commas.js examples/trailing-comma.js",
+    "comma": "jscodeshift -d -p -t transforms/trailing-commas.js examples/trailing-comma.js",
     "unchain": "jscodeshift -t transforms/unchain-variables.js examples/chained-dec.js"
   },
   "keywords": [
